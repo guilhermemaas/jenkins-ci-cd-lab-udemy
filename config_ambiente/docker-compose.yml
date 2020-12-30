@@ -1,0 +1,14 @@
+#docker run --name pg-tasks -d -e POSTGRES_DB=tasks -e POSTGRES_PASSWORD=password -p 5433:5432 --restart unless-stopped postgres:9.6
+version: "3"
+
+services:
+    pg-tasks:
+        container_name: pg-tasks
+        image: postgres:9.6
+        ports:
+            - 5433:5432
+        environment:
+            - POSTGRES_DB=tasks
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=postgres
+        restart: unless-stopped
