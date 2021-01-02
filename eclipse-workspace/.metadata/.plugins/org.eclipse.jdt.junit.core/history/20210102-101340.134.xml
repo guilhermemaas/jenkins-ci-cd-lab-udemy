@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TaskControllerTest" project="tasks-backend" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.taskbackend.controller.TaskControllerTest" time="0.108">
+    <testcase name="naoDeveSalvarTarefaSemDescricao" classname="br.ce.wcaquino.taskbackend.controller.TaskControllerTest" time="0.09"/>
+    <testcase name="naoDeveSalvarTarefaSemData" classname="br.ce.wcaquino.taskbackend.controller.TaskControllerTest" time="0.001"/>
+    <testcase name="deveSalvarTarefaComSucesso" classname="br.ce.wcaquino.taskbackend.controller.TaskControllerTest" time="0.015"/>
+    <testcase name="naoDeveSalvarTarefaComDataPassada" classname="br.ce.wcaquino.taskbackend.controller.TaskControllerTest" time="0.002"/>
+  </testsuite>
+</testrun>

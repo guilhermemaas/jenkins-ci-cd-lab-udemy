@@ -112,6 +112,22 @@ export PATH=$PATH:$JAVA_HOME/bin
 #Criando um node:
 mkdir /var/jenkins #-> Root directory.
 
+
 #Rodar o jenkins node:
 wget http://localhost:8000/jnlpJars/agent.jar
 java -jar agent.jar -jnlpUrl http://localhost:8000/computer/nublar-desktop/slave-agent.jnlp -secret 83c44ff1b7d11f85f551f8cd16d8ea834f9c607d5564ae18379b698fb163d61c -workDir "/var/jenkins"
+
+
+#SonarQube - 
+https://hub.docker.com/_/sonarqube/
+#Verificar o item "Docker Host Requirements".
+#Adicionado ao docker-compose.yml do projeto.
+http://localhost:9000
+#admin/admin
+#No Jenkins instalar 2 plugins: Sonarqube e Sonarqube Quality Gate
+
+#SonarQube Scanner:
+#No node que vai rodar:
+wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.3.0.1492-linux.zip
+unzip sonar...
+#Adicionar o caminho em: Jenkins > Global Tool Configuration > SonarQube Scanner

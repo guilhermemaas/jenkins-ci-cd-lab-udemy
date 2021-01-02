@@ -1,0 +1,10 @@
+package br.ce.wcaquino.taskbackend.utils;
+
+import java.time.LocalDate;
+
+public class DateUtilsTest {
+	
+	public void deveRetornarTrueParaDatasFuturas() {
+		Localdate date = LocalDate.of(2030, 01, 01);
+	}
+}

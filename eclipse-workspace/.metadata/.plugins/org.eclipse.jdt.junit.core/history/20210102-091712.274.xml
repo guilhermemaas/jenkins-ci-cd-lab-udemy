@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DateUtilsTest" project="tasks-backend" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.taskbackend.utils.DateUtilsTest" time="0.011">
+    <testcase name="deveRetornarTrueParaDatasFuturas" classname="br.ce.wcaquino.taskbackend.utils.DateUtilsTest" time="0.011"/>
+  </testsuite>
+</testrun>
